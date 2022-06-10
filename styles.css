@@ -1,0 +1,39 @@
+@font-face {
+    font-family: quagera;
+    src: url(../fonts/quagera-font.otf);
+}
+@font-face {
+    font-family: wotfard;
+    src: url(../fonts/wotfard-font.otf);
+}
+*{
+    font-family: "wotfard";
+}
+#header {
+    font-family: "quagera";
+    text-align: center;
+    font-size: 40pt;
+    color: black;
+}
+
+h1 {
+    font-family: "quagera";
+    font-size: 30pt;
+    color: darkgreen;
+    text-align: center;
+}
+h2, h3 {
+    font-family: "quagera";
+    text-align: center;
+    font-size: 15pt;
+}
+img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+ul, ol {
+    background-color: bisque;
+}
